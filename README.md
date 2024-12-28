@@ -15,6 +15,7 @@ Clarification of the book class.
 Clarification of the Library class.
 
  Added empty List of books&users
+ 
                #*Methods used*#          
 - `addBook`:  Adds a book to the library.
 - `addUser`:  Adds a user to the library.
