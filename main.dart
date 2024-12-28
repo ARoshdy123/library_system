@@ -21,6 +21,7 @@ void main() {
   library.borrowBook(book1);
   library.borrowBook(book2);
   library.borrowBook(book3);
+  library.borrowBook(book3);
   library.displayInfo();
   library.returnBook(book3);
   library.displayInfo();
