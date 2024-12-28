@@ -27,7 +27,11 @@ class Library {
 
   // borrow book method
   void borrowBook(Books book) {
-    book.isBorrowed = true;
+    if (book.isBorrowed == true) {
+      print('The Book is unavalible already borrowed');
+    } else {
+      book.isBorrowed = true;
+    }
   }
 
   // display books method
