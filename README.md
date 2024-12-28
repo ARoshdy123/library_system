@@ -10,13 +10,13 @@ Clarification of the book class.
 - `title`: The title of the book.
 - `isBorrowed`: true mean book is unavailable false mean the book are available and no one took it
 
-### Books
+### Library
 
 Clarification of the Library class.
 
  Added empty List of books&users
  
-               #*Methods used*#          
+ ##Methods used        
 - `addBook`:  Adds a book to the library.
 - `addUser`:  Adds a user to the library.
 - `returnBook`: Returns a borrowed book to the library.
